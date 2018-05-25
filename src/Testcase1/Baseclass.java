@@ -25,9 +25,9 @@ import com.sun.java.swing.plaf.windows.resources.windows;
 public class Baseclass {
 
 	private WebDriver driver;
-    String actualtitle, expectedhometitle = "Home page", expectedtitle = "mobe", expectedresult = "Thank you for registering with Main Website Store.";
+        String actualtitle, expectedhometitle = "Home page", expectedtitle = "mobe", expectedresult = "Thank you for registering with Main Website Store.";
 	String expectedwish = "Your Wishlist has been shared.";
-    boolean flag = true, expectedflag = true,actualvalue = false;
+        boolean flag = true, expectedflag = true,actualvalue = false;
 	SoftAssert softassert = new SoftAssert();
 	
 	@BeforeMethod
